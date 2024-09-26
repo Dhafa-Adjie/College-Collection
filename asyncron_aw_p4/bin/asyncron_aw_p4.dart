@@ -19,9 +19,9 @@ void main() async{
     var order = await getOrder(16); // Cara 1
     print('Your order: $order');
   } catch (e) {
-    print('Error: $e}');
+    print('Error: $e');
   }
-
+   
   // print('Waiting user order');
   // var order = await getOrder(16);
   // print('Your order : $order');
